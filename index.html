@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+	  
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  
+	  <style>
+	  
+			@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:wght@300&display=swap');
+			
+		  
+	
+	  h1{
+	  font-family: 'Calligraffitti', cursive;
+	  }
+		  
+		  p{
+			font-family: 'Open Sans', sans-serif;  
+			font-size: 14px;
+		  }
+		  *{
+			  box-sizing: content-box;
+			  font-family: Palatino;
+		  }
+	  
+		  
+		  
+		  #hero{
+			  display: flex;
+			  align-items: center;
+			  height: 100vh;
+			  background: url(assets/img/pexels-photo-255379.jpeg);
+			  background-size: cover;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: auto;
+		  }
+		  
+		  #text{
+			  background: rgba(0,0,0, .5);
+			  color: #fff;
+			  text-decoration: none;
+			  font-size: 10px;
+			  text-align: center;
+			  max-width: 600px;
+			  align-content: center;
+			  
+			  
+		  }
+		  
+		  @keyframes fader{
+			  0%{
+				  opacity: 0;
+			  }
+			  100%{
+				  opacity: 1;
+			  }
+		  }
+		  
+		
+		  #herocontent{
+			  animation: 2s fader linear 1;
+			  background: rgba(0,0,0, .5);
+			  max-width: 400px;
+			  padding: 20px;
+			  color:#fff;
+			  align-content: center;
+			  
+		  }
+	  
+		  .btn{
+			  display: block;
+			  background: #f00;
+			  color: #fff;
+			  text-decoration: none;
+			  font-size: 10px;
+			  text-align: center;
+			  border-radius: 20px;
+			  align-content: center; 
+			  
+		  }
+		  @keyframes btnani{
+			  0%{
+				background:#f00;
+			    color: #fff;
+				transform: scale(1,1);
+			  }
+			  50%{
+				 background: #fff;
+			     color: #f00; 
+				 transform: scale(1.5,1.5);
+			  }
+			  100%{
+				background:#f00;
+			    color: #fff;  
+				transform: scale(1,1);
+			  }
+		  }
+		  
+		  .btn:hover{
+			  animation: 3s btnani ease-in-out infinite;
+			  color:#f00;
+			  background: #fff;
+		  }
+		  
+		  
+		  
+		  
+	  </style>
+	 
+  </head>
+	
+	
+  <body>
+	   <a href="responsiveness.html"><button id="reg"type="button"><h1>Responsiveness</h1></button></a>
+	  <div id="hero">
+		  <div class ="c33" id="herocontent">
+		  <h1>Headline</h1>
+			  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. </p>
+			  <p><a href="#"class="btn">Register Today  <i class="fa fa-registered" style="font-size:14px"></i></a></p>
+		  </div>
+		  
+		   <div class="c50" id="text">
+	   <h1>Headline</h1>
+			  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. </p>
+	  </div>
+		  
+		  </div>
+	 
+	   
+  </body>
+</html>

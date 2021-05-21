@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	
+  <head>
+	  
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  
+	  <style>
+		  *{
+			  box-sizing: border-box;
+			  font-family: helvetica;
+		  }
+		  body{
+			  margin: 0;
+		  }
+		  img{
+			  max-width: 100%;
+			  width:auto;
+		  }
+	  
+		  .container{
+			  background-color: azure;
+			  display: flex;
+			  flex-wrap: wrap;
+			  /*max-width: 950px;*/
+			  margin: 60px auto;
+		  }
+		  
+		  .rtl{
+			  flex-direction: row-reverse;
+		  }
+		  
+		  .container div{
+			  padding:10px;
+		  }
+		  
+		  
+		  
+		  .c50{
+			  width:50%;
+		  }
+		  
+		  @media screen and (max-width:600px){
+			   .c50{
+				  width:100%;
+			  }
+		  }
+		  
+		  @media screen and (max-width:375px){
+			  .c50{
+				  background: #CDF3F4;
+			  }
+			  
+		  }
+		  
+	  </style>
+	  
+  </head>
+	
+  <body>
+	  
+	  <div class="container">
+		  <div class="c50">
+			  <img src="assets/img/NYC1.jpg">
+			  </div>
+		  <div class="c50">
+		  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui do lorem ipsum, quia dolor sit amet consectetur adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. </p>
+	  </div>
+	  
+	  
+	  <div class="container rtl"> 
+		  <div class="c50">
+		  <img src="assets/img/NYC2.jpg">
+		  
+	  
+	  </div>	  
+	  
+	  <div class="c50">
+	 	 <p> Ut enim ad minima veniam, quis nostrum[d] exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? [D]Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </p>
+		  </div>
+	  </div>
+	  </div>
+	  
+  </body>
+	
+</html>
